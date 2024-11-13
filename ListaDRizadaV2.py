@@ -11,7 +11,7 @@ def main(args):
         s1 = a1.casefold()
         s2 = a2.casefold()
         user=s1[0:2]+s2[0:2]+s[0:2]
-        t=(n+" "+a1+" "+a2+" ", user+"_aliesma2324"+x[0], x3+x2[3]+str(i))
+        t=(n+" "+a1+" "+a2+" ", user+"_aliesma2324"+x[0], x3+str(i))
         l.append(t)
     for nc, user, ip in l:
         print("El usuario es: ",user, "La ip asignada es:",ip)
