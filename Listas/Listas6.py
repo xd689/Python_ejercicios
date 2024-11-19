@@ -9,7 +9,7 @@ def main(args):
     print("\nASIGNATURAS SUSPENSAS")
     print("=====================")
     for asignatura, nota in asignaturas_suspensas:
-        print(f"{asignatura}: {nota}")
+        print(f"{asignatura} ---- {nota}")
     return 0
 
 if __name__ == "__main__":

@@ -1,5 +1,5 @@
 def main(args):
-	namekiano=(" Bardocka "," Vergetta "," Son Gohanda "," Gokú ")
+	namekiano=(" Bardocka "," Vergetta "," Gohan "," Gokú ")
 	for i in range(len(namekiano)):
 		padre=namekiano[i]
 		for j in range(len(padre)):
