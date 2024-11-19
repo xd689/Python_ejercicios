@@ -13,6 +13,7 @@ def main(args):
         user=s1[0:2]+s2[0:2]+s[0:2]
         t=(n+" "+a1+" "+a2+" ", user+"_aliesma2324"+x[0], x3+str(i))
         l.append(t)
+        print(t)
     for nc, user, ip in l:
         print("El usuario es: ",user, "La ip asignada es:",ip)
         print("El nombre completo es: ",nc)
