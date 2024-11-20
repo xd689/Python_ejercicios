@@ -1,6 +1,4 @@
-#!/usr/bin/env python
 def verificaip(ip):
-#escribe tu código aquí
    ip = input("Introduce una dirección IP: ")
    if ip == ("192.168.1.1"):
        return True

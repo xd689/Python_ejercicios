@@ -1,6 +1,4 @@
-#!/usr/bin/env python
 def buscainterfaz(interfaz,linea):
-#escribe tu código aquí
     if interfaz in linea:
         return interfaz
     return 0

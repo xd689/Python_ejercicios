@@ -1,5 +1,3 @@
-#!/usr/bin/env python
-
 def main(args):
 	num1=input("Introduce el primer número")
 	num2=input("Introduce el segundo número")

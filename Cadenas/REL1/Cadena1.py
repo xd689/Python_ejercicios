@@ -1,4 +1,3 @@
-#!/usr/bin/env python
 def main(args):
     mifrase=input("Introduzca una frase simple: ")
     print("HECHO USANDO LA CARACTERÍSTICA ITERABLE:\n")

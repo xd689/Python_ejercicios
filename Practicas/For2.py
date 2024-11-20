@@ -1,5 +1,3 @@
-#!/usr/bin/env python
-
 def main(args):
     numero = 0
     for i in range(1,11):

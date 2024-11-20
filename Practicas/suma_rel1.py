@@ -1,5 +1,3 @@
-#!/usr/bin/env python
-
 def main(args):
 	num1=int(input("Por favor, introduce un número: "))
 	num2=int(input("Por favor, introduce un número: "))
