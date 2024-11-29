@@ -5,8 +5,8 @@ def meterDatos():
         game = input("Dime el titulaso: ")
         pub = input("Dime la publicadora: ")
         dev = input("Dime el desarrolador: ")
-        sexy.update(f"{game,pub,dev}")
-        print(sexy)
+        sexy.update({game:{pub,dev}})
+    return sexy
 
 def mostrarDatos(datos):
     for servidor in datos:
@@ -51,8 +51,10 @@ def main(args):
             "DNS":["1.1.1.1","8.8.8.8"]
     }        
     }
-    meterDatos()
+    
     mostrarDatos(datos)
+    erhueso = meterDatos()
+    print(erhueso)
     return 0
 
 if __name__ == "__main__":
