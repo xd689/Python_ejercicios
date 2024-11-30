@@ -1,14 +1,16 @@
-def meterDatos():
+def meterDatos(sexy):
     contadol=int(input("Cuantos jueguitos quieres añadir: "))
-    sexy={}
     for i  in range(contadol):
         game = input("Dime el titulaso: ")
         pub = input("Dime la publicadora: ")
         dev = input("Dime el desarrolador: ")
-        sexy.update({game:{pub,dev}})
+        sexy[game] = {
+            'Publicadora': pub,
+            'Desarrolladora': dev,
+        }
     return sexy
 
-def mostrarDatos(datos):
+def mostrarDatos(datos,sexy):
     for servidor in datos:
         print(servidor)
     #
@@ -34,7 +36,12 @@ def mostrarDatos(datos):
                 print(f"\t{clave}--->{valor}")
             else:
                 for a in valor:
-                    print(f"DNS--->{a}")        
+                    print(f"DNS--->{a}")
+    #
+    for juego in sexy:
+        print(f"{juego}")
+        for clave,valor in sexy[juego].items():
+                print(f"\t{clave}--->{valor}")           
 
 def main(args):
     datos={
@@ -51,10 +58,11 @@ def main(args):
             "DNS":["1.1.1.1","8.8.8.8"]
     }        
     }
+    sexy = {}
     
-    mostrarDatos(datos)
-    erhueso = meterDatos()
+    erhueso = meterDatos(sexy)
     print(erhueso)
+    mostrarDatos(datos,sexy)
     return 0
 
 if __name__ == "__main__":
