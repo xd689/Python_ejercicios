@@ -5,10 +5,11 @@ def creaServ():
         ns = input("Dime el nombre del servidor: ")
         serv = []
         n1 = int(input(f"¿Cuantos servicios tiene {ns}?: "))
+        s.update(ns)
         for j in range(n1):
-            nServ = input(f"Dime el nombre del servicio {j} de {ns}: ")
-            serv.append(nServ)
-        s.update({ns:{"Servicio":nServ}})
+            j += 1
+            nServ = int(input(f"Dime el nombre del servicio {j} de {ns}: "))
+            s.update(nServ)
     print(s)
     return(s)
 
