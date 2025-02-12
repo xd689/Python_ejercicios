@@ -1,0 +1,9 @@
+127.0.0.1	localhost: FALLO
+127.0.1.1	usuario02: FALLO
+192.168.59.40	an: FALLO
+192.168.59.30	ex: FALLO
+::1     ip6-localhost ip6-loopback: FALLO
+fe00::0 ip6-localnet: FALLO
+ff00::0 ip6-mcastprefix: FALLO
+ff02::1 ip6-allnodes: FALLO
+ff02::2 ip6-allrouters: FALLO
