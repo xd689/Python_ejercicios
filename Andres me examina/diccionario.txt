@@ -1,0 +1,10 @@
+Usuario: carlos
+IP: 192.162.1.10
+Mail: carlos@domain.ext
+Dominio: domain.ext
+Numero dni: 26352634C
+Usuario: curro
+IP: 192.162.1.12
+Mail: curro@domain.ext
+Dominio: domain.ext
+Numero dni: 32352634C
